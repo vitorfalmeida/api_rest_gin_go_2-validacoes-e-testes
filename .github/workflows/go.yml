@@ -20,7 +20,7 @@ jobs:
       run: docker-compose build
     
     - name: Test-DB
-      run: docke-compose up -d
+      run: docker-compose up -d
     
     - name: Set up Go
       uses: actions/setup-go@v3
