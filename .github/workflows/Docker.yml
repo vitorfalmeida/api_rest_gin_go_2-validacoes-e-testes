@@ -26,7 +26,7 @@ jobs:
        with:  
         username: vitorfalmeida
         password: ${{ secrets.PASSWORD_DOCKER_HUB }}
-        ecr: auto
+      
         
      - name: Build and push Docker images
   # You may pin to the exact commit or the version.
@@ -36,7 +36,7 @@ jobs:
            
          context: .
        # Path to the Dockerfile
-         file: api_rest_gin_go_2-validacoes-e-testes/Dockerfile
+         file: ./Dockerfile
        # Push is a shorthand for --output=type=registry
          push: true
        # List of tags
