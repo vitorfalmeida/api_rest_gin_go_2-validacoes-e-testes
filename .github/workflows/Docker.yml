@@ -36,7 +36,7 @@ jobs:
            
          context: .
        # Path to the Dockerfile
-         file: ./Docker.yml
+         file: ./Dockerfile
        # Push is a shorthand for --output=type=registry
          push: true
        # List of tags
