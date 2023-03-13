@@ -36,7 +36,7 @@ jobs:
            
          context: .
        # Path to the Dockerfile
-         file: ./Dockerfile
+         file: api_rest_gin_go_2-validacoes-e-testes/Dockerfile
        # Push is a shorthand for --output=type=registry
          push: true
        # List of tags
